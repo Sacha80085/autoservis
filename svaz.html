@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связаться с нами</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Distressed&family=Yellowtail&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Шапка -->
+    <header>
+      <a href="сайт.html">
+            <div class="logo">
+                <img  src="img/лого.png" alt="машина">
+            </div>
+            </a>
+        <nav>
+            <ul>
+                <li><a id="van" href="o nas.html">О нас</a></li>
+                <li><a id=to href="novosti.html">Новости</a></li>
+                <li><a id="tree" href="portfolio.html">Портфолио</a></li>
+                <li><a href="uslugi.html">Услуги</a></li>
+                <li><a href="akzii.html">Акции</a></li>
+                <li><a href="svaz.html">Обратная связь</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Документы</a></li>
+            </ul>
+        </nav>
+        <a href="voiti.html">
+        <button type="button" name="button">Войти
+        </button>
+      </a>
+    </header>
+    <!-- Главный контент -->
+    <main>
+      <div class="svaz">
+        <h2 style="margin-bottom:30px; color:white;">Напишите нам</h2>
+        <div id="svaz_fon" class="svaz_content">
+          <form class="center" action="index.html" method="post">
+            <label for="">
+              <p>Ваше имя:</p>
+              <input style="border:3px solid red;" type="text" name="" placeholder="Иван" value="">
+            </label>
+            <label for="phone">
+              <p>Почта:</p>
+              <input style="border:3px solid red;" type="email" placeholder="ivanov@.com "name="phone" value="">
+              <p>Сообщение:</p>
+              <textarea style="width:600px; height: 50px; margin-bottom:50px; border:3px solid red;" name="text" >Напиши сообщение</textarea>
+            </label>
+            <input id="reset" type="reset" name="" value="Отправить">
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </main>
+    <!-- Подвал -->
+    <footer>
+      <div class="footer_box1">
+        <div class="footer_box1_content">
+          <p>ООО «Диагност Авто»</p>
+        </div>
+        <div class="footer_box2_content">
+          <p style="font-size:20px; color:white">© Диагност авто</p>
+        </div>
+      </div>
+      <div class="footer_box1">
+        <div class="footer_box1_content">
+          <a href="сайт.html">
+          <p id="contur" style="font-size:22px; padding:10px;">Диагност Авто</p>
+          </a>
+        </div>
+        <div class="footer_box2_content">
+          <p style="font-size:20px; color:white">2024 г.</p>
+        </div>
+      </div>
+      <div class="footer_box2">
+        <div class="footer_box2_content">
+          <p style="font-size:20px; color:white; line-height:30px;">Телефон: <br> +7 (999) 999-99-99</p>
+          </div>
+        <div class="footer_box3_content">
+          <a href="#">
+          <img style="padding: 9px;" src="img/tg.png" alt="">
+         </a>
+         <a href="#">
+          <img style="padding: 9px;" src="img/vk.png" alt="">
+          </a>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
